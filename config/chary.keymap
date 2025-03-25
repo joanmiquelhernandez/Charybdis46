@@ -10,7 +10,9 @@
 #define HOTKEY  3
 
 #define AS(keycode) &as LS(keycode) keycode
-
+&mt {
+    tapping-term-ms = <500>; // This is the value already set by default
+};
 / {
     macros {
         macro_email_q: macro_email_q {
