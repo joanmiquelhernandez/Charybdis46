@@ -89,6 +89,7 @@
 
         CTRLF9 {
             bindings = <&kp LC(F9)>;
+            layers = <0 1>;
             key-positions = <49 50>;
         };
     };
