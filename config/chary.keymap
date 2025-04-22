@@ -12,7 +12,7 @@
 #define AS(keycode) &as LS(keycode) keycode
 
 &mt {
-    tapping-term-ms = <800>; // This is the value already set by default
+    tapping-term-ms = <1500>; // This is the value already set by default
 };
 
 / {
